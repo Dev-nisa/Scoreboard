@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="scoreboard">
+            <div class="container">
+                <div>
+                    <h1>HOME</h1>
+                </div>
+                <div>
+                    <h1>GUEST</h1>
+                </div>
+            </div>
+            <div class="container">
+                <div class="scores">
+                    <div id="number">
+                        <h2 id="home-score">0</h2>
+                    </div>
+                </div>
+                <div class="scores">
+                    <div id="number">
+                        <h2 id="guest-score">0</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="buttons">
+                    <button class="points" onclick="homeAdd1()">+1</button>
+                    <button class="points" onclick="homeAdd2()">+2</button>
+                    <button class="points" onclick="homeAdd3()">+3</button>
+                </div>
+                <div class="buttons">
+                    <button class="points" onclick="guestAdd1()">+1</button>
+                    <button class="points" onclick="guestAdd2()">+2</button>
+                    <button class="points" onclick="guestAdd3()">+3</button>
+                </div>
+            </div>
+            <div id="quarter">
+                <h3>Quarter :  </h3>
+                <input type="radio" name="radio" selected>1<sup>st</sup></input>
+                <input type="radio" name="radio">2<sup>nd</sup></input>
+                <input type="radio" name="radio">3<sup>rd</sup></input>
+                <input type="radio" name="radio">4<sup>th</sup></input>
+            </div>
+            <div id="reset">
+                <button id="reset-btn" onclick="reset()">RESET</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+/* 
+SMOKEY BLACK: #080001
+WHITE: #EEEEEE
+POWDER BLUE: #9AABD8
+RED: #A4322F
+DARK BLUE: #1B244A
+GREEN: #66FF00
+*/
+@font-face {
+    src: url("digital-7.ttf");
+    font-family: digital-7;
+}
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#scoreboard {
+    background-color: #1B244A; 
+    border: 4px solid #EEEEEE;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px black;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: #EEEEEE;
+}
+.scores {
+    background-color: #080001;
+    border-radius: 5px;
+    width: 130px;
+    height: 130px;
+    color: #A4322F;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-family: digital-7;
+    font-size: 5.7em;
+    padding-bottom: 20px;
+}
+.points {
+    border: 2px solid #9BA9CE;
+    background-color: #1B244A;
+    color: #9BA9CE;
+    border-radius: 5px;
+    width: 37px;
+    height: 37px;
+    margin-right: 3px;
+    font-weight: bolder;
+    font-family: digital-7;
+}
+.points:hover {
+    border: 2px solid #66FF00;
+    color: #66FF00;
+}
+#quarter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #EEEEEE;
+    margin-top: 15px;
+    font-size: 20px;
+}
+#quarter input {
+    margin-left: 20px;
+    margin-right: 4px;
+    accent-color: #A4322F;
+}
+#reset {
+    display: flex;
+    justify-content: end;
+}
+#reset-btn {
+    background-color: #1B244A;
+    border: 2px solid #9BA9CE;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #EEEEEE;
+    font-weight: bolder;
+    margin-right: 110px;
+}
+#reset-btn:hover {
+    border: 2px solid #A4322F;
+    color: #A4322F
+}
