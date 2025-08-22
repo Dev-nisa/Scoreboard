@@ -1,19 +1,10 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+This is a Scrimba Front End Developer project to create a scoreboard. The point of this project is to demonstrate knowledge of using Flexbox and functions in JavaScript. Each project has a bare minimum, but Scrimba suggests stretch goals. There were 3 stretch goals: 
+  1. Add quarters or periods to scoreboard
+  2. Add a reset button
+  3. Add a timer
+I chose the first couple of goals because I needed more time to research how to code a timer. My calendar is marked to add a timer, make the style unique, and to make a toggle for different sports scoreboards.
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
+Some things I learned from this project:
+  - The most interesting part was checking out different fonts. I learned how to add Google fonts to the CSS and where to find unsafe Google fonts.
+  - Nailing down how flexbox works, especially when using rows VS. columns. The most helpful search brought me to gap: #px.
+  - When it came to coding the JavaScript, it took a couple tried to figure out the best order to execute functions. 
